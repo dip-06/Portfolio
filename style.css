@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x:hidden;
+}
+.cursor_pointer{
+    cursor:pointer;
+}
+.resize_photo{
+    height:80px;
+    width:90px;
+    border-radius: 50%;
+    cursor:pointer;
+    position:relative;
+   
+
+}
+.typewriter {
+    display: inline-block;
+      
+      font-family: monospace;
+      font-size: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid black; /* cursor */
+      width: 0; 
+      animation: typing 10s steps(24, end) forwards infinite, blink 0.7s step-end infinite;
+      
+
+    }
+
+    @keyframes typing {
+      0%{ width: 0 }
+      30% { width: 24ch}
+      70%{width:24ch}
+      90%{width:0}
+      100%{width:0}
+    }
+   
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+
+.navbar{
+        width:100vw;
+        height:80px;
+        margin:0;
+        padding:0;
+        display:flex;
+        overflow:hidden
+}
+.div1{
+    margin-left:10px;
+    width:10%;
+}
+.div2{
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.p_size{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif
+}
+.tech_maindiv{
+    margin-left:55px;
+} 
+
+.tech{
+    height:50px;
+    width:200px;
+    border:2px solid black;
+    /* margin: 20px; */
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 15px;
+}
+footer{
+    height:100px;
+}
+
+
+
+         .tech {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%)}
+         .tech {
+            /* margin: 10px;
+            padding: 15px 45px; */
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: rgb(0, 0, 0);            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            /* display: block; */
+          }
+
+          .tech:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+a{
+    color:black;
+    font-style: none;
+}
+
